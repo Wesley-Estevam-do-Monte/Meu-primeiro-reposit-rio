@@ -1,0 +1,116 @@
+#card{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 80px;
+    box-shadow: 10px 10px 10px black;
+    -webkit-transition: all .4s ease-in;
+
+}
+#card:hover{
+    -webkit-transform: scale(1.1);
+}
+#card2{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 80px;
+    box-shadow: 10px 10px 10px black;
+    -webkit-transition: all .4s ease-in;
+
+}
+#card2:hover{
+    -webkit-transform: scale(1.1);
+
+}
+#card3{
+    position: absolute;
+    left: 700px;
+    margin-top: 50px;    
+    box-shadow: 10px 10px 10px black;
+    -webkit-transition: all .4s ease-in;
+
+}
+#card3:hover{
+    -webkit-transform: scale(1.1);
+
+}
+#card4{
+    position: absolute;
+    left: 700px;
+    margin-top: 250px;
+    box-shadow: 10px 10px 10px black;
+    -webkit-transition: all .4s ease-in;
+
+}
+#card4:hover{
+    -webkit-transform: scale(1.1);
+
+}
+#card6{
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 80px;
+    box-shadow: 10px 10px 10px black;
+    -webkit-transition: all .4s ease-in;
+
+}  
+#card6:hover{
+    -webkit-transform: scale(1.1);
+
+}  
+#card7{
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 700px;
+    box-shadow: 10px 10px 10px black;
+    -webkit-transition: all .4s ease-in;
+
+} 
+#card7:hover{
+    -webkit-transform: scale(1.1);
+
+} 
+#card8{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 200px;
+    box-shadow: 10px 10px 10px black;
+    -webkit-transition: all .4s ease-in;
+}
+#card8:hover{
+    -webkit-transform: scale(1.2);
+
+}
+#contato{
+
+    position: relative;
+    text-align: center;
+    color: gold;
+    margin-top: 30px;
+    margin-left: 70px;
+    text-transform: uppercase;
+
+}
+#contato h2:hover{
+    color: peru;
+}
+#ladoA{
+    position: absolute;
+    top: 60px;
+    left: -50px;
+}
+#ladoB{
+    position: absolute;
+    top: 60PX;
+    left: 300PX;
+}#ladoC{
+    position: absolute;
+    top: 60px;
+    left: 800px;
+}
+#footer{
+    text-align: center;
+    font-family: arial;
+    color: black;
+    padding: 10%;
+    margin-top: 20%;
+}

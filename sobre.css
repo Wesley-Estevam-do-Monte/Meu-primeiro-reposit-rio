@@ -1,0 +1,17 @@
+#retangulo2{
+    position: absolute;
+    width: 90%;
+    height: 50%;
+    background-color: rgba(26, 18, 18, 0.384);
+    margin-left: 5%;
+    margin-top: 5%;
+    color: gold;
+    text-align: center;
+    margin-top: 40%;
+    box-shadow: 10px 10px 10px black;
+
+}
+#texto{
+    margin-top: 80px;
+    font-size: 40px;
+}

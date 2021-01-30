@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color: black;
+            margin: auto;
+        }
+        #lamp{
+            text-align: center;
+            padding: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="lamp">
+        <img src="img/lampApagada.jpg" id="luz" onmousemove="lampada()" onmouseout="lampadaApagada()">
+    </div>
+<script>
+    function lampada() {
+      document.getElementById("luz").src = "img/acesa.jpg"
+ 
+}
+
+    function lampadaApagada() {
+    document.getElementById("luz").src = "img/lampApagada.jpg"
+}
+</script>
+</body>
+</html>
